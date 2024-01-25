@@ -95,3 +95,19 @@
   font-display: swap;
   src: url('../fonts/GmarketSansTTFBold.woff') format('woff'), url('../fonts/GmarketSansTTFBold.woff2') format('woff2');
 }
+
+/* Jalnan Gothic */
+@font-face {
+  font-family: 'JalnanGothic';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/GmarketSansTTFBold.woff') format('woff'), url('../fonts/GmarketSansTTFBold.woff2') format('woff2');
+}
+
+/* Jalnan */
+@font-face {
+  font-family: 'Jalnan';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Jalnan2TTF.woff') format('woff');
+}

@@ -82,3 +82,9 @@ h6 {font-size: 1rem; font-weight: 700;}
 .round15 {border-radius: 0.938rem;}
 .round10 {border-radius: 0.625rem;}
 .round5 {border-radius: 0.313rem;}
+
+/* Fonts */
+.f_pretendard {font-family: 'Pretendard', sans-serif;}
+.f_gmarket {font-family: 'Gmarket Sans', sans-serif;}
+.f_jalnangothic {font-family: 'JalnanGothic', sans-serif;}
+.f_jalnan {font-family: 'Jalnan', sans-serif;}
