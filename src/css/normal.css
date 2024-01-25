@@ -15,8 +15,12 @@
 .footer .inner {display: flex; align-items: center; justify-content: space-between; height: 6.563rem;}
 .ft-info {display: flex; align-items: center;}
 .ft-info .cn-logo {display: block; width: 9.375rem;}
-.ft-info .contact {margin-left: 2.5rem;}
-.ft-info .contact span {display: inline-block; height: 1.875rem; line-height: 1.875rem; margin-right: 0.5rem; padding: 0 0.625rem; font-size: 1rem; font-weight: 500; color: var(--color-white); background-color: #004b98; text-align: center;}
+.ft-info .contact {position: relative; margin-left: 2.5rem; font-size: 0;}
+.ft-info .contact:before {content: ""; display: block; position: absolute; top: 50%; left: -1.25rem; height: 1.25rem; margin-top: -0.625rem; border-left: 2px solid #e1e1e1;}
+.ft-info .contact .t1 {display: inline-block; margin-right: 0.5rem; padding: 0.3rem 0.625rem 0.08rem; font-size: 1rem; font-weight: 500; color: var(--color-white); background-color: #004b98; text-align: center;}
+.ft-info .contact .t2 {font-size: 1.25rem; font-weight: 700; color: #333;}
+.ft-info .contact .t3 {font-size: 1.125rem; font-weight: 700; color: #333;}
+.copyright {font-size: 1rem; font-weight: 300; color: #333;}
 
 /* contents */
 .contents {margin-top: 90px;}
@@ -25,20 +29,22 @@
 .main-visual .swiper-slide {position: relative; height: calc(100vh - 7rem);}
 .main-visual .swiper-slide.slide1 {background: url('../img/main-vs1_bg.jpg') no-repeat center/cover;}
 .main-visual .slide-contents {position: absolute; top: 50%; left: 50%; z-index: 10; transform: translate(-50%, -50%); width: 100%; padding: 0 3.125rem; text-align: center;}
-.main-visual .slide-contents .t1 {display: inline-block; position: relative; max-width: 100%; margin: 0 auto 1.25rem; padding: 1.125rem 1.875rem; font-size: 1.875rem; color: var(--color-white); background-color: #c31818; line-height: 1;}
-.main-visual .slide-contents .t2 {position: relative; max-width: 100%; margin: 0 auto; font-size: 5rem; color: #026129; line-height: 1; -webkit-text-stroke: 1px var(--color-white); text-stroke: 1px var(--color-white);}
+.main-visual .slide-contents .t1 {display: inline-block; position: relative; max-width: 100%; margin: 0 auto 2.5rem; padding: 1.125rem 1.875rem 0.7rem; font-size: 1.875rem; color: var(--color-white); background-color: #c31818; line-height: normal;}
+.main-visual .slide-contents .t1:after {content: ""; display: block; position: absolute; bottom: 0.4rem; right: -0.8rem; width: 1.813rem; height: 1.313rem; background: url('../img/chat-poly.png') no-repeat center/contain;}
+.main-visual .slide-contents .t2 {position: relative; max-width: 100%; margin: 0 auto; font-size: 5rem; color: #026129; line-height: 1;}
+.main-visual .slide-contents .t2:after {content: attr(data-shadow-text); position: absolute; top: 0; left: 0; z-index: -1; color: #fff; -webkit-text-stroke: 20px;}
 .main-visual .slide-contents .t3 {position: relative; max-width: 100%; margin: 2.5rem auto 0; font-size: 1.5rem; font-weight: 500; color: #063218; line-height: 1.415;}
+
+.main-visual .slide1 .slide-contents {margin-top: -6%;}
+.main-visual .slide1 .slide-contents .t1 {display: inline-block;}
+.main-visual .slide1 .slide-contents .t2 {display: inline-block;}
+.main-visual .slide1 .slide-contents .t2:before {content: ""; display: block; position: absolute; top: -7.5rem; left: -6rem; z-index: -2; width: 9.125rem; height: 9.75rem; background: url('../img/main-vs1_t1_symbol.png') no-repeat center/contain;}
+.main-visual .slide1 .slide-contents .t3 {width: 31.25rem;}
 
 .main-visual .scroll-info {display: block; position: absolute; bottom: 0; right: 0; z-index: 20; width: 18.687rem; height: 7.562rem; background: url('../img/main-vs_mask.png') no-repeat bottom right/contain;}
 .main-visual .scroll-info .comp {display: block; position: absolute; bottom: 0; right: 0; z-index: 30; width: 100%; padding-right: 0.625rem; font-size: 0; text-align: right; line-height: 5.625rem;}
 .main-visual .scroll-info .comp .text {display: inline-block; font-size: 1.25rem; font-weight: 500; color: var(--color-black); vertical-align: middle;}
 .main-visual .scroll-info .comp .icon {display: inline-block; width: 4rem; height: 4rem; margin-left: 1.5rem; border-radius: 50%; background: url('../img/arrow-down-white1.svg') no-repeat center/1.25rem auto, var(--color-main); vertical-align: middle;}
-
-.main-visual .slide1 .slide-contents {margin-top: -6%;}
-.main-visual .slide1 .slide-contents .t1 {display: inline-block;}
-.main-visual .slide1 .slide-contents .t2 {display: inline-block;}
-.main-visual .slide1 .slide-contents .t2:before {content: ""; display: block; position: absolute; top: 0; left: 0; z-index: -1; width: 9.125rem; height: 9.75rem; background: url('../img/main-vs1_t1_symbol.png') no-repeat center/contain;}
-.main-visual .slide1 .slide-contents .t3 {width: 31.25rem;}
 
 .main_section {}
 .main_title_box {padding-bottom: 2.6875rem;}
