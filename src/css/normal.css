@@ -87,6 +87,8 @@
 .main_economy_item.item04 .text_box {color: #4e2161;}
 
 /* sub */
+.sub-contents {padding-top: 6.25rem; padding-bottom: 7.5rem;}
+
 .sub-visual {}
 .sub-visual .inner {overflow: hidden; height: 31.25rem; background-color: #f9f9f9;}
 .sub-visual .wrapper {height: 100%;}
@@ -97,15 +99,21 @@
 
 #circular .sub-visual .inner{background: url('../img/sub-vs_bg_circular.jpg') no-repeat center/cover, #fff;}
 
-.sub-contents {padding-top: 6.25rem;}
+
+.sb-section:not(:first-child) {margin-top: 6.25rem;}
 
 .sb-title__box {}
 .sb-title__box .sb-title {position: relative; padding-left: 1.875rem; font-size: 2.5rem; font-weight: 700; color: var(--color-black); line-height: normal;}
 .sb-title__box .sb-title:before {content: ""; display: block; position: absolute; top: 0.3rem; left: 0; width: 0.56rem; height: 1.75rem; background-color: #e33e3e;}
 
 .sb-ct__box {margin-top: 3.3rem;}
-
+.sb-ct__inner:not(:first-child) {margin-top: 2.5rem;}
+.sb-ct__inner.bd {padding-top: 2.5rem; border-top: 1px dashed #d5d5d5;}
+.sb-text__box {}
 .sb-text__box.gray {padding: 2.5rem; background-color: #f7f7f7;}
+.sb-text__box.bsArea {display: flex; flex-flow: row wrap; gap: 1rem 2.5rem;}
+.bsArea__box {width: calc(100% / 2 - 2.5rem / 2); padding: 2rem 0.625rem 2rem 2.5rem; font-size: 1.5rem; font-weight: 600; color: var(--color-black); box-shadow: 5px 0 30px rgba(115,115,115,0.15);}
+
 .sb-text__wr.indent1 {padding-left: 1.25rem;}
 .sb-text__wr.mt1 {margin-top: 0.56rem;}
 .sb-text__wr.mt2 {margin-top: 1.12rem;}
@@ -151,10 +159,12 @@
 .table_box table tr th {background-color: #fcf4f4; font-weight: 600; font-size: 1.125rem; border-right: 1px solid #e4e4e4; padding: 16px 30px;}
 .table_box table tr th:last-child {border-right: none;}
 .table_box table tr td {font-weight: 400; padding: 11px 30px; vertical-align: top; font-weight: 400; font-size: 1.125rem; line-height: 1.888; border-right: 1px solid #e4e4e4;}
+.table_box table tr td.rowTd {font-weight: 600; font-size: 1.125rem; vertical-align: middle;}
 .table_box table tr td:last-child {border-right: none;}
 .table_box table tr .left {text-align: left;}
 .table_box table tr .center {text-align: center;}
 .table_box table tr .text {font-weight: 400; font-size: 1.125rem; line-height: 1.888;}
+.table_box table tr td.rowTd .text {font-weight: 600; font-size: 1.125rem;}
 .table_box table tr .pt17 {padding-top: 17px;}
 
 
