@@ -14,8 +14,9 @@ input[type="submit"], button{cursor:pointer}
 input{border-radius: 0;}
 
 /* Content Line */
-.container {padding-left: 1.5rem; padding-right: 1.5rem; width: 100%;}
-.wrapper {width: 1440px; max-width: 100%; margin: 0 auto;}
+.container {padding-left: 6.25rem; padding-right: 6.25rem; width: 100%;}
+.wrapper {width: 1280px; max-width: 100%; margin: 0 auto;}
+.inner {position: relative;}
 
 /* Typography */
 h1 {font-size: 3.125rem; font-weight: 800;}
