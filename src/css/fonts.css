@@ -70,3 +70,44 @@
   font-display: swap;
   src: url('../fonts/Pretendard-Black.woff') format('woff'), url('../fonts/Pretendard-Black.woff2') format('woff2');
 }
+
+/* Gmarket Sans */
+@font-face {
+  font-family: 'Gmarket Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/GmarketSansTTFLight.woff') format('woff'), url('../fonts/GmarketSansTTFLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Gmarket Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/GmarketSansTTFMedium.woff') format('woff'), url('../fonts/GmarketSansTTFMedium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Gmarket Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../fonts/GmarketSansTTFBold.woff') format('woff'), url('../fonts/GmarketSansTTFBold.woff2') format('woff2');
+}
+
+/* Jalnan Gothic */
+@font-face {
+  font-family: 'JalnanGothic';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/GmarketSansTTFBold.woff') format('woff'), url('../fonts/GmarketSansTTFBold.woff2') format('woff2');
+}
+
+/* Jalnan */
+@font-face {
+  font-family: 'Jalnan';
+  font-weight: normal;
+  font-style: normal;
+  src: url('../fonts/Jalnan2TTF.woff') format('woff');
+}
