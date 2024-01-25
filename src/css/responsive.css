@@ -1,0 +1,7 @@
+@media screen and (max-width:960px) {
+  html,body{font-size: 14px;}
+} /* End */
+
+@media screen and (max-width:480px) {
+  html,body{font-size: 10px;}
+} /* End */
