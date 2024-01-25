@@ -5,13 +5,17 @@ html{overflow-x: hidden; -webkit-text-size-adjust: none;}
 body{-webkit-print-color-adjust:exact; background: #fff; font-family: 'Pretendard'; font-style: normal;  font-weight: 300; color: #333; line-height: 1.5; letter-spacing: -0.5px;}
 ul, li, dl,dt,dd {margin:0;padding:0;list-style:none}
 a{color:#333;text-decoration:none;}
-img {border: 0; font-size: 0; max-width: 100%;}
+img {border: 0; font-size: 0; max-width: 100%; vertical-align: middle;}
 table, tr, td { border-collapse: collapse;}
 p{word-break: keep-all;}
 textarea, select{font-family: 'Pretendard'; font-size:1em}
 input, button{margin:0;padding:0;font-family: 'Pretendard'; font-size:1em}
 input[type="submit"], button{cursor:pointer}
 input{border-radius: 0;}
+
+.swiper-container {margin: 0 auto; position: relative; overflow: hidden; list-style: none; padding: 0; z-index: 1;}
+
+.btn {border: 0; background: none;}
 
 /* Content Line */
 .container {padding-left: 6.25rem; padding-right: 6.25rem; width: 100%;}
@@ -31,15 +35,9 @@ h6 {font-size: 1rem; font-weight: 700;}
   --error-color: #f00;
   --success-color: #2970ff;
 
-  --color-main: #f64c35;
+  --color-main: #02be86;
   --color-white: #ffffff;
-  --color-black: #000000;
-  --color-black2: #0f0f0f;
-  --color-gray: #f9f9f9;
-  --color-gray2: #666;
-  --color-gray3: #999;
-  --color-gray4: #eee;
-  --color-gray5: #ddd;
+  --color-black: #0f0f0f;
 }
 
 /* Common */
@@ -82,3 +80,4 @@ h6 {font-size: 1rem; font-weight: 700;}
 .round15 {border-radius: 0.938rem;}
 .round10 {border-radius: 0.625rem;}
 .round5 {border-radius: 0.313rem;}
+.round {border-radius: 999px;}
