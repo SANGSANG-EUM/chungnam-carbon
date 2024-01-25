@@ -22,4 +22,22 @@ $(document).ready(function () {
     },
   };
   const mainVisualSlider = f.slider(mainVisualTarget, mainVisualOptions);
+
+  const relImgSlideTarget = '.rel_img_sl .swiper-container';
+  const relImgSlideOptions = {
+    spaceBetween: 40,
+    slidesPerView: 4,
+    watchSlidesProgress: true,
+    loop: false,
+    centeredSlides: false,
+    keyboard: {
+      enabled: true,
+      onlyInViewport: false
+    },
+    navigation: {
+      nextEl: ".rel_img_slide_btn_box .next",
+      prevEl: ".rel_img_slide_btn_box .prev",
+    },
+  };
+  const relImgSlider = f.slider(relImgSlideTarget, relImgSlideOptions);
 });
