@@ -54,14 +54,12 @@
 .main_banner_wrap {margin: -30px;}
 .main_banner_box {padding: 30px;}
 .main_banner_item {border-radius: 30px; display: block; position: relative; overflow: hidden; font-size: 0;}
-.main_banner_item.item01 {}
-.main_banner_item.item02 {}
-.main_banner_item.item03 {}
 .main_banner_bg {position: relative; height: 0; padding-bottom: 35.157%;}
 .main_banner_bg img {position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); width: 100%;}
 .main_banner_text {font-weight: 700; font-size: 3.5rem; line-height: 1.17; color: #fff;}
 .main_banner_text .green {font-size: 4.25rem; color: #57e5bb;}
-.main_banner_item.item01 .main_banner_text {position: absolute; top: 4.1875rem; left: 4.1875rem;}
+.main_banner_item.item01 .main_banner_bg {padding-bottom: 39%;}
+.main_banner_item.item01 .main_banner_text {position: absolute; top: 8rem; left: 4.1875rem;}
 .main_banner_item.item02 .main_banner_text {position: absolute; top: 47%; left: 50%; transform: translate(-50%,-50%); max-width: 100%;  font-size: 3.75rem; color: #fff; line-height: 1; white-space: nowrap;}
 .main_banner_item.item02 .main_banner_text:after {content: attr(data-shadow-text); position: absolute; top: 0; left: 0; z-index: -1; color: #303c98; -webkit-text-stroke: 14px;}
 .main_banner_item.item03 .main_banner_text {position: absolute; top: 37%; left: 50%; transform: translate(-50%,-50%); font-size: 0; font-weight: 700; font-size: 3.75rem; line-height: 1.266; text-align: center;}
@@ -79,7 +77,7 @@
 
 .main_economy_item .text_box {}
 .main_economy_item .text_box .text01 {font-weight: 700; font-size: 3.75rem; line-height: 1.26;}
-.main_economy_item .text_box .text02 {font-weight: 500; font-size: 1.625rem;}
+.main_economy_item .text_box .text02 {font-weight: 500; font-size: 1.625rem; margin-bottom: 0.3rem;}
 
 .main_economy_item.item01 .text_box {color: #303c98;}
 .main_economy_item.item02 .text_box {color: #7d2020;}
