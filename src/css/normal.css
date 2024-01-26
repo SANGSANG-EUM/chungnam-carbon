@@ -99,7 +99,11 @@
 .white .sub-page__title {color: #fff;}
 .white .sub-page__stitle {color: #fff;}
 
+#future .sub-visual .inner{background: url('../img/sub-vs_bg_future.jpg') no-repeat center/cover, #fff;}
+#transitional .sub-visual .inner{background: url('../img/sub-vs_bg_transitional.jpg') no-repeat center/cover, #fff;}
 #circular .sub-visual .inner{background: url('../img/sub-vs_bg_circular.jpg') no-repeat center/cover, #fff;}
+#living .sub-visual .inner{background: url('../img/sub-vs_bg_living.jpg') no-repeat center/cover, #fff;}
+#countryHub .sub-visual .inner{background: url('../img/sub-vs_bg_countryHub.jpg') no-repeat center/cover, #fff;}
 #summary .sub-visual .inner{background: url('../img/sub-vs_bg_summary.jpg') no-repeat center/cover, #fff;}
 #newsList .sub-visual .inner {height: 20rem; background: none;}
 #newsView .sub-visual .inner {height: 20rem; background: none;}
