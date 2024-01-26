@@ -98,9 +98,17 @@
 .white .sub-page__stitle {color: #fff;}
 
 #future .sub-visual .inner{background: url('../img/sub-vs_bg_future.jpg') no-repeat center/cover, #fff;}
+#future .sub-page__title,
+#future .sub-page__stitle {color: #2c3256;}
 #transitional .sub-visual .inner{background: url('../img/sub-vs_bg_transitional.jpg') no-repeat center/cover, #fff;}
+#transitional .sub-page__title,
+#transitional .sub-page__stitle {color: #132f54;}
 #circular .sub-visual .inner{background: url('../img/sub-vs_bg_circular.jpg') no-repeat center/cover, #fff;}
+#circular .sub-page__title,
+#circular .sub-page__stitle {color: #175430;}
 #living .sub-visual .inner{background: url('../img/sub-vs_bg_living.jpg') no-repeat center/cover, #fff;}
+#living .sub-page__title,
+#living .sub-page__stitle {color: #fff;}
 #countryHub .sub-visual .inner{background: url('../img/sub-vs_bg_countryHub.jpg') no-repeat center/cover, #fff;}
 #summary .sub-visual .inner{background: url('../img/sub-vs_bg_summary.jpg') no-repeat center/cover, #fff;}
 #newsList .sub-visual .inner {height: 20rem; background: none;}
