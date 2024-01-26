@@ -101,6 +101,26 @@
 
 #circular .sub-visual .inner{background: url('../img/sub-vs_bg_circular.jpg') no-repeat center/cover, #fff;}
 #summary .sub-visual .inner{background: url('../img/sub-vs_bg_summary.jpg') no-repeat center/cover, #fff;}
+#newsList .sub-visual .inner {height: 20rem; background: none;}
+#newsView .sub-visual .inner {height: 20rem; background: none;}
+#galleryList .sub-visual .inner {height: 20rem; background: none;}
+#galleryView .sub-visual .inner {height: 20rem; background: none;}
+
+#newsList .sub-page__title,
+#newsList .sub-page__stitle,
+#newsView .sub-page__title,
+#newsView .sub-page__stitle,
+#galleryList .sub-page__title,
+#galleryList .sub-page__stitle,
+#galleryView .sub-page__title,
+#galleryView .sub-page__stitle {color: var(--color-black);}
+
+#newsList .sub-contents,
+#newsView .sub-contents,
+#galleryList .sub-contents,
+#galleryView .sub-contents {padding-top: 2rem;}
+
+
 
 
 .sb-section:not(:first-child) {margin-top: 6.25rem;}
