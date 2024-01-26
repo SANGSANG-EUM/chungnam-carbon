@@ -152,7 +152,7 @@
 .sb-text__wr.mt2 {margin-top: 1.12rem;}
 
 .sb-text1 {font-size: 1.5rem; font-weight: 600; color: var(--color-black);}
-.sb-text1.mark {padding-left: 1.25rem; text-indent: -1.25rem;}
+.sb-text1.mark {padding-left: 1.25rem; text-indent: -1.25rem; line-height: 1.7;}
 .sb-text2 {font-size: 1.125rem; font-weight: 500; color: var(--color-black); line-height: 1.7;}
 .sb-text2.mark {padding-left: 0.75rem; text-indent: -0.75rem;}
 .sb-text3 {font-size: 1.125rem; font-weight: 400; color: #279e7b;}
@@ -192,15 +192,17 @@
 .table_box table tr:last-child {border-bottom: none;}
 .table_box table tr th {background-color: #fcf4f4; font-weight: 600; font-size: 1.125rem; border-right: 1px solid #e4e4e4; padding: 1rem 1.875rem; vertical-align: middle;}
 .table_box table tr th:last-child {border-right: none;}
-.table_box table tr td {font-weight: 400; padding: 0 1.875rem; vertical-align: top; font-weight: 400; font-size: 1.125rem; line-height: 1.888; border-right: 1px solid #e4e4e4; vertical-align: top;}
-.table_box table tr td.rowTd {font-weight: 600; font-size: 1.125rem; vertical-align: middle;}
+.table_box table tr td {font-weight: 400; padding: 0 1.875rem; vertical-align: top; font-weight: 400; font-size: 1.125rem; line-height: 1.888; border-right: 1px solid #e4e4e4; vertical-align: middle;}
+.table_box table tr td.rowTd {vertical-align: middle;}
+.table_box table tr td.rowTd .text {font-weight: 600; font-size: 1.125rem; line-height: 1.5;}
 .table_box table tr td:last-child {border-right: none;}
 .table_box table tr .left {text-align: left;}
 .table_box table tr .center {text-align: center;}
 .table_box table tr .text {font-weight: 400; font-size: 1.125rem; line-height: 1.888;}
 .table_box table tr td.rowTd .text {font-weight: 600; font-size: 1.125rem;}
-.table_box table tr .pt17 {padding-top: 1rem;}
-.table_box table tr .bold {font-weight: 600;}
+.table_box table tr .pt {padding-top: 0.625rem;}
+.table_box table tr .pb {padding-bottom: 0.625rem;}
+.table_box table tr .bold {font-weight: 600; line-height: 1.5;}
 
 /* hover */
 @media screen and (min-width: 1290px) {
