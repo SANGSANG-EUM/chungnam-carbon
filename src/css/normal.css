@@ -134,6 +134,10 @@
 #newsView .sub-visual .inner {height: auto; padding: 5.625rem 0 3.125rem; background: none;}
 #galleryList .sub-visual .inner {height: auto; padding: 5.625rem 0 3.125rem; background: none;}
 #galleryView .sub-visual .inner {height: auto; padding: 5.625rem 0 3.125rem; background: none;}
+#newsList .sub-visual .comp {padding-left: 0;}
+#newsView .sub-visual .comp {padding-left: 0;}
+#galleryList .sub-visual .comp {padding-left: 0;}
+#galleryView .sub-visual .comp {padding-left: 0;}
 
 #newsList .sub-page__title,
 #newsList .sub-page__stitle,
