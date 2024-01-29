@@ -264,6 +264,8 @@
   .sb-circle {width: 11rem; height: 11rem;}
   .sb-circle .t2:before {margin: 0.5rem auto;}
 
+  .bsArea__box {width: 100%; padding: 1rem 0.625rem 1rem 1.5rem;}
+
   .table_box {overflow-x: auto;}
   .table_box .mobile_text {display: block;}
   .table_box table {width: 700px;}
