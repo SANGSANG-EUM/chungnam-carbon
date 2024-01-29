@@ -94,6 +94,10 @@
 .main_economy_item .text_box .text01 {font-weight: 700; font-size: 3.125rem; line-height: 1.26;}
 .main_economy_item .text_box .text02 {font-weight: 500; font-size: 1.625rem; margin-top: 0.3rem;}
 
+.main_economy_item.item01 {background-color: #f0f6ff;}
+.main_economy_item.item02 {background-color: #f7f2ed;}
+.main_economy_item.item03 {background-color: #f3fdef;}
+.main_economy_item.item04 {background-color: #fbf4fe;}
 .main_economy_item.item01 .text_box {color: #303c98;}
 .main_economy_item.item02 .text_box {color: #7d2020;}
 .main_economy_item.item03 .text_box {color: #264c17;}
