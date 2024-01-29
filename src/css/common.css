@@ -88,3 +88,32 @@ h6 {font-size: 1rem; font-weight: 700;}
 .f_gmarket {font-family: 'Gmarket Sans', sans-serif;}
 .f_jalnangothic {font-family: 'JalnanGothic', sans-serif;}
 .f_jalnan {font-family: 'Jalnan', sans-serif;}
+
+/* column */
+.i-col-0{font-size: 0;}
+.i-col-1{font-size: 0;}
+.i-col-2{font-size: 0;}
+.i-col-3{font-size: 0;}
+.i-col-4{font-size: 0;}
+.i-col-5{font-size: 0;}
+.i-col-6{font-size: 0;}
+.i-col-7{font-size: 0;}
+.i-col-8{font-size: 0;}
+.i-col-9{font-size: 0;}
+.i-col-10{font-size: 0;}
+.i-col-11{font-size: 0;}
+.i-col-12{font-size: 0;}
+
+.i-col-0 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: auto;}
+.i-col-1 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 100%;}
+.i-col-2 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 50%;}
+.i-col-3 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 33.333%;}
+.i-col-4 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 25%;}
+.i-col-5 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 20%;}
+.i-col-6 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 16.666%;}
+.i-col-7 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 14.285%;}
+.i-col-8 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 12.5%;}
+.i-col-9 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 11.111%;}
+.i-col-10 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 10%;}
+.i-col-11 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 9.09%;}
+.i-col-12 > *{display: inline-block; font-size: 16px; vertical-align: middle; width: 8.333%;}

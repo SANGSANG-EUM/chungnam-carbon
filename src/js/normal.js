@@ -49,10 +49,12 @@ $(document).ready(function () {
         slidesPerView: 3,
       },
       1291: {
+        spaceBetween: 20,
         slidesPerView: 4,
       },
       1441: {
         spaceBetween: 40,
+        slidesPerView: 4,
       }
     }
   };
