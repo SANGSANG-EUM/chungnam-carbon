@@ -68,10 +68,21 @@
   .contents {margin-top: 4.5rem;}
 
   /* header */
-  .header .inner {height: 4.5rem;}
+  .header .inner {display: flex; align-items: center; justify-content: space-between; height: 4.5rem;}
   .hd-logo { width: 15.625rem;}
   .hd-logo > a {display: flex; align-items: center; font-size: 0;}
-  .gnb {display: none;}
+  .gnb {display: none; position: fixed; top: 4.5rem; right: -100%; z-index: 600; width: 400px; max-width: 100%; height: calc(100% - 4.5rem); margin-left: 0; padding: 2rem; text-align: left; background-color: #f9f9f9; box-shadow: 0 15px 20px 0 rgba(0, 0, 0, .1); transition: 0.3s;}
+  .gnb .dp1 {display: block; height: auto;}
+  .gnb .dp1 > li > a {display: block; height: auto; padding: 1rem 0; font-size: 1.2rem;}
+
+  .header-ham {display: flex; align-items: center; position: relative; width: 2.5rem; height: 1.5rem;}
+  .header-ham > span {display: block; width: 100%; height: 3px; border-radius: 3px; background-color: #333; transition: .3s;}
+  .header-ham > span::after, .header-ham > span::before {content: ''; position: absolute; left: 0; width: 100%; height: 3px; border-radius: 3px; background-color: #333; transition: .3s;}
+  .header-ham > span::after {top: 0;}
+  .header-ham > span::before {bottom: 0;}
+  .header-ham.on > span {background-color: transparent;}
+  .header-ham.on > span::after {rotate: 45deg; top: 50%;}
+  .header-ham.on > span::before {rotate: -45deg; top: 50%;}
 
   /* sub */
   .sub-visual .inner {height: 18rem;}
@@ -91,6 +102,9 @@
   /* common */
   html,body{font-size: 12px;}
   .container {padding-left: 2rem; padding-right: 2rem;}
+
+  /* header */
+  .gnb .dp1 > li > a {padding: 0.7rem 0; font-size: 1.3rem;}
 
   /* sub */
   .sub-visual .inner {height: 15rem;}

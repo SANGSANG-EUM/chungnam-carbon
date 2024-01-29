@@ -57,4 +57,18 @@ $(document).ready(function () {
     }
   };
   const relImgSlider = f.slider(relImgSlideTarget, relImgSlideOptions);
+
+  //모바일 햄버거 메뉴
+  const moHamBtn = $(".header-ham");
+  const moHamGnb = $(".gnb");
+
+  moHamBtn.on('click', function(){
+    if($(this).hasClass("on")) {
+      $(this).removeClass("on");
+      moHamGnb.fadeOut(100).css("right","-100%");
+    } else {
+      $(this).addClass("on");
+      moHamGnb.fadeIn(100).css("right","0");
+    }
+  })
 });

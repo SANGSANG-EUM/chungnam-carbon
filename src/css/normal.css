@@ -10,6 +10,8 @@
 .gnb .dp2 {display: none; position: absolute; top: 4.125rem; left: 50%; transform: translateX(-50%); width: 100%; padding: 0.65rem 0; background-color: var(--color-main);}
 .gnb .dp2 > li > a {display: block; padding: 5px 0; font-size: 1.125rem; font-weight: 500; color: #fff;}
 
+.header-ham {display: none;}
+
 /* footer */
 .footer {border-top: 1px solid #6d6d6d;}
 .footer .inner {display: flex; align-items: center; justify-content: space-between; height: 6.563rem;}
