@@ -61,16 +61,40 @@ $(document).ready(function () {
   const relImgSlider = f.slider(relImgSlideTarget, relImgSlideOptions);
 
   //모바일 햄버거 메뉴
-  const moHamBtn = $(".header-ham");
-  const moHamGnb = $(".gnb");
+  function moMemu () {
+    let windowWidth = $( window ).width();
+    let hasChild = 0;
+    const moHamBtn = $(".header-ham");
+    const moHamGnb = $(".gnb");
 
-  moHamBtn.on('click', function(){
-    if($(this).hasClass("on")) {
-      $(this).removeClass("on");
-      moHamGnb.fadeOut(100).css("right","-100%");
-    } else {
-      $(this).addClass("on");
-      moHamGnb.fadeIn(100).css("right","0");
+    moHamBtn.on('click', function(){
+      if($(this).hasClass("on")) {
+        $(this).removeClass("on");
+        moHamGnb.fadeOut(100).css("right","-100%");
+      } else {
+        $(this).addClass("on");
+        moHamGnb.fadeIn(100).css("right","0");
+      }
+    });
+    
+    if(windowWidth <= 1023) {
+      moHamGnb.find(".dp2").each(function(){
+        hasChild = $(this).length;
+        
+        if(hasChild > 0) {
+          let orginLink = $(this).siblings("a").attr("href");
+          
+          $(this).siblings("a").attr({
+            "data-link": orginLink,
+            "href": "javascript:void(0)"
+          });
+          $(this).siblings("a").on('click', function(){
+            $(this).siblings(".dp2").slideToggle(200);
+          })
+        }
+      })
     }
-  })
+  }
+
+  moMemu()
 });
