@@ -327,6 +327,7 @@
   .list_body_item .td.td_depart {font-size: 13px;}
 
   .pagination {padding-top: 20px;}
+  .pagi_ul li {padding: 0 0.4rem;}
   .pagi_ul li a {font-size: 14px;}
   
   .td_num,
