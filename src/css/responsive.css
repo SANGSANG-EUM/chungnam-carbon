@@ -241,6 +241,7 @@
   .main_banner_item .banner_btn {bottom: 2rem; left: 2rem; width: 2rem; height: 2rem;}
   .main_banner_item .banner_btn img {width: 1rem;}
 
+  .main_banner_item.item02 .main_banner_bg {padding-bottom: 35.157%; background: url('../img/main-banner-bg02_2.jpg') no-repeat center/cover;}
   .main_banner_item.item02 .main_banner_text {font-size: 2.2rem;}
 
   .main_economy_wrap {padding: 1rem 0;}
@@ -371,6 +372,7 @@
   .main_banner_item.item01 .main_banner_bg {padding-bottom: 65%; background-color: antiquewhite;}
   .main_banner_item.item01 .main_banner_bg img {object-fit: inherit; top: inherit; left: inherit; transform: inherit; bottom: 0; right: -20%; width: auto;}
 
+  .main_banner_item.item02 .main_banner_bg {padding-bottom: 40%; background: url('../img/main-banner-bg02_3.jpg') no-repeat center/cover;}
   .main_banner_item.item02 .main_banner_text {font-size: 2rem;}
   .main_banner_item.item02 .main_banner_text:after {-webkit-text-stroke: 7px;}
 
